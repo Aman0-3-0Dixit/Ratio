@@ -18,7 +18,7 @@ export default function App() {
   const [buttonDisabled, setButtonDisabled] = useState(true);
 
   useEffect(() => {
-    if (remainingPictures === 0) {
+    if (remainingPictures <= 0) {
       setButtonColor('#ff1493');
       setButtonDisabled(false);
     } else {
@@ -176,6 +176,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
+
+
 
 
 
