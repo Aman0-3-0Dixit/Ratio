@@ -9,3 +9,9 @@ Open the downloaded folder in Visual Studio Code, go to the root folder - ratio,
 Once you are in the root folder, type in the terminal - 'npm install' -----> (This command will install all the necessary packages that are used in the app into your local system)
 
 After this, type in the terminal - 'npx expo start' ----> (after few seconds, a QR will be generated in the terminal. Open the Expo Go app in android and camera in iphone and scan the QR code. The app will automatically bundle all the necessary packages and build the app after which you can test the feature.
+
+
+Here is a demonstration of the feauture :-
+
+https://github.com/Aman0-3-0Dixit/Ratio/assets/107999424/0d22387a-d9d8-4433-871c-b376454b0c2f
+
